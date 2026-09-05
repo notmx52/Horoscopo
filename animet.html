@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Animet</title>
+
+    <link rel="stylesheet" href="colores.css">
+
+</head>
+
+<body>
+
+    <div class="animet-container">
+    
+    <div class="dragon-wrapper">
+        <img
+            src="dragonbienvenido.png"
+            id="dragonAnimet"
+            class="dragon"
+            alt="Dragón"
+        >
+    </div>    
+
+        <h1>Animet</h1>
+
+        <h2>Descubre tu horóscopo del día</h2>
+
+        <p id="bienvenida"></p>
+
+        <form id="motivacionForm">
+
+            <select id="signo" required>
+
+                <option value="">Selecciona tu signo</option>
+
+                <option value="aries">Aries</option>
+                <option value="taurus">Tauro</option>
+                <option value="gemini">Géminis</option>
+                <option value="cancer">Cáncer</option>
+                <option value="leo">Leo</option>
+                <option value="virgo">Virgo</option>
+                <option value="libra">Libra</option>
+                <option value="scorpio">Escorpio</option>
+                <option value="sagittarius">Sagitario</option>
+                <option value="capricorn">Capricornio</option>
+                <option value="aquarius">Acuario</option>
+                <option value="pisces">Piscis</option>
+
+            </select>
+
+            <button type="submit">
+                Ver mi horóscopo
+            </button>
+
+        </form>
+
+        <div id="mensajeMotivacion"></div>
+
+        <div id="alerta"></div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

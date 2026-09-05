@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Crear Usuario</title>
+
+    <link rel="stylesheet" href="colores.css">
+</head>
+
+<body>
+
+    <div class="register-container">
+        <div class="dragon-wrapper">
+            <img
+                src="open.png"
+                id="dragon"
+                class="dragon"
+                alt="Dragón"
+            >
+        </div>
+
+        <h2>Crear Usuario</h2>
+
+        <form id="registerForm">
+
+            <input
+                type="text"
+                id="name"
+                required
+            >
+
+            <input
+                type="email"
+                id="registerEmail"
+                placeholder="Agrega @"
+                required
+            >
+
+            <div class="password-container">
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    required
+                >
+
+                <button
+                    type="button"
+                    id="togglePassword"
+                    class="eye-button"
+                >
+                    .-.
+                </button>
+
+            </div>
+
+            <button type="submit">
+                Crear
+            </button>
+
+        </form>
+
+        <p>¿Ya estás registrado?</p>
+
+        <a href="forms.html">
+            Iniciar sesión
+        </a>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iniciar Sesión</title>
+
+    <link rel="stylesheet" href="colores.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="dragon-wrapper">
+            <img 
+                src="open.png"
+                id="dragon"
+                class="dragon"
+                alt="Dragón"
+            >
+        </div>
+
+        <h2>Iniciar Sesión</h2>
+
+        <form id="loginForm">
+
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Agrega @"
+                required
+            >
+
+            <div class="password-container">
+
+                <input
+                    type="password"
+                    id="loginPassword"
+                    required
+                >
+
+                <button
+                    type="button"
+                    id="togglePassword"
+                    class="eye-button"
+                >
+                    .-.
+                </button>
+
+            </div>
+
+            <button type="submit">
+                Ingresar
+            </button>
+
+        </form>
+
+        <p>¿No tienes usuario?</p>
+
+        <a href="log.html">
+            Click aquí
+        </a>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
