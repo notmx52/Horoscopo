@@ -141,10 +141,6 @@ select:focus {
     cursor: pointer;
 
     font-size: 18px;
-
-    /*
-       Mejora el toque en celular.
-    */
     touch-action: manipulation;
 }
 
